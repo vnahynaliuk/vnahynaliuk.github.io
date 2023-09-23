@@ -44,7 +44,7 @@ export function createSkillChart(tasks) {
             width: 550,
             type: 'donut',
             background: '#E8E9EB',
-            foreColor: '#0C0404'
+            foreColor: '#6C969D'
         },
         series: res.map((skillData) => skillData.y),
         labels: res.map((skillData) => skillData.x),

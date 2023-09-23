@@ -53,7 +53,7 @@ export function createXpChart (tasks){
             width: '100%',
             type: 'area',
             background: '#E8E9EB',
-            foreColor: '#0C0404',
+            foreColor: '#645E9D',
             zoom: {
                 enabled: false
             }

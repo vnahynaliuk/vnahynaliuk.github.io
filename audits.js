@@ -15,7 +15,7 @@ export function createAuditCharts(userData) {
             width: 400,
             type: 'bar',
             background: '#E8E9EB',
-            foreColor: '#0C0404'
+            foreColor: '#99D5C9'
         },
         series: [{
             name: 'Audit',
