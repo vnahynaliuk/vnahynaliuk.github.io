@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Log In</title>
+</head>
+<body class="bg-secondary-subtle">
+    <form id="login" >
+        <div class="m-3 mx-auto " style="width: 320px;">
+            <label id="err" style="display: none; color: red;">User does not exist or password incorrect</label>
+            <input type="text" class="form-control" id="user" placeholder="Type user name or e-mail" required>
+        </div>
+
+        <div class="m-3 mx-auto" style="width: 320px;">
+            <input type="password" class="form-control" id="password" placeholder="Type password" required>
+        </div>
+
+        <div class="mx-auto row col-1" style="width: 320px;" >
+            <button class="btn btn-dark" type="submit" id="login_btn">Log In</button>
+        </div>
+    </form>
+
+    <script src="./token.js" type="module"></script>
+</body>
+</html>

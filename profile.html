@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>GraphQL</title>
+</head>
+<body class="bg-secondary-subtle">
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-10">
+                <div id="user_info" class="h5">
+                    <div id="user_name"></div>
+                    <div id="gitea"></div>
+                    <div id="country"></div>
+                    <div id="city"></div>
+                </div>
+            </div>
+            <div class="col-2">
+                <button class="btn btn-dark" id="logout_btn">Log Out</button>
+            </div>
+        </div>
+
+        <div class="row mt-4" >
+            <div class="col-md-6">
+                 <div id="audit"></div>
+            </div>
+            <div class="col-md-6">
+                <div id="skills"></div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-12">
+                <div id="xp_progression"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js" type="module"></script>
+    <script src="./fetch.js" type="module"></script>
+</body>
+</html>
